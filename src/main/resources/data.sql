@@ -23,11 +23,6 @@ VALUES
     ('Licenciatura en Informatica');
 
 
-INSERT INTO Carrera (nombre)
-VALUES
-    ('Ingenieria en Sistemas'),
-    ('Licenciatura en Informatica');
-
 
 
 -- carrera_id 1 es Ingenieria, 2 es Licenciatura
@@ -55,11 +50,6 @@ VALUES
 
 -- usuario_id 1 = Juan, 2 = Ana
 -- carrera_id 1 = Ingenieria, 2 = Licenciatura
-
-INSERT INTO alumno_carrera (alumno_id, carrera_id)
-VALUES
-    (1, 1),
-    (2, 2);
 
 
 
